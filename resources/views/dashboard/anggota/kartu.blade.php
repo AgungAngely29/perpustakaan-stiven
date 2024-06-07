@@ -22,12 +22,12 @@
                         <h5 class="card-title text-center">Kartu Anggota Siperpus</h5>
                     </div>
                     <div class="card-body">
-                        <p class="card-text"><strong>Nama:</strong> {{ $anggota->nama_lengkap }}</p>
-                        <p class="card-text"><strong>Kelas:</strong> {{ $anggota->kelas }}</p>
-                        <p class="card-text"><strong>Jurusan:</strong> {{ $anggota->jurusan }}</p>
-                        <p class="card-text"><strong>Alamat:</strong> {{ $anggota->alamat }}</p>
-                        <p class="card-text"><strong>Telepon:</strong> {{ $anggota->telepon }}</p>
-                        <p class="card-text"><strong>Email:</strong> {{ $anggota->email }}</p>
+                        <p class="card-text"><b>Nama:</b> {{ $anggota->nama_lengkap }}</p>
+                        <p class="card-text"><b>Kelas:</b> {{ $anggota->kelas }}</p>
+                        <p class="card-text"><b>Jurusan:</b> {{ $anggota->jurusan }}</p>
+                        <p class="card-text"><b>Alamat:</b> {{ $anggota->alamat }}</p>
+                        <p class="card-text"><b>Telepon:</b> {{ $anggota->telepon }}</p>
+                        <p class="card-text"><b>Email:</b> {{ $anggota->email }}</p>
                     </div>
                 </div>
             </div>
